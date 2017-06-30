@@ -1,0 +1,190 @@
+.banner{
+    margin: 1rem 0.4rem 0.45rem;
+    padding: 0 0.4rem;
+}
+.tit{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.tit .h3{
+    color: #323232;
+}
+hr {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    display: inline-block;
+
+}
+.lin1{
+    width: 65px;
+}
+.lin2{
+    width: 35px;
+}
+.carousel-inner img{
+    width: 100%;
+}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.inpic .pic1{
+    position: relative;
+    padding: 0 0.1rem;
+}
+/*.inpic .pic1 img:hover{*/
+    /*!*transform:scale(1.2);*!*/
+    /*!*overflow: hidden;*!*/
+/*}*/
+
+
+
+.inpic .pic1:hover .motai{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background:#fff;
+    position: absolute;
+    margin-bottom: 0px;
+    top:0;
+    opacity: 0.6;
+    text-align: center;
+}
+.inpic .pic1:hover img{
+    transition: all 2s;
+    transform: scale(1.2,1.2);
+}
+.inpic .pic1:hover{
+    overflow: hidden;
+}
+.pic1:hover .motai h3{
+    color: #000;
+    margin-top: 1rem;
+}
+.inpic .motai{
+    position: absolute;
+    top:0;
+    display: none;
+    padding: 0.4rem 0.4rem;
+    transform: scale(1.2,1.2);
+}
+.inpic .motai p{
+    line-height: 0.21rem;
+    font-size: 0.1rem;
+}
+.inpic .pic1 img{
+    width: 100%;
+}
+.myvideo{
+    position: relative;
+}
+#link{
+    font-size: 0.15rem;
+    width: 12vw;
+    background: #fff;
+    height: 4vh;
+    line-height: 4vh;
+    position: absolute;
+    top:44%;
+    left: 36%;
+    text-align: center;
+}
+.nexsfabu{
+    margin-top: 0.64rem;
+}
+.xinwen{
+    text-align: center;
+    padding: 0 0.6rem;
+}
+
+.xinwen .textp{
+    line-height: 0.35rem;
+    font-size: 0.15rem;
+    text-indent: 2em;
+    text-align: left;
+}
+.meitibot{
+    margin-top:0.64rem;
+}
+.smallpic img{
+    width: 0.85rem;
+}
+.meitibot p{
+    line-height: 0.18rem;
+    color: #656565;
+    font-size: 0.14rem;
+
+}
+.leftmei{
+    padding: 0.15rem 0.45rem;
+
+}
+.leftmei .media {
+    margin-top: 51px;
+}
+.rightpic{
+    padding-left: 0.65rem;
+}
+.backg{
+    margin-top:0.64rem;
+    background-image: url("../images/1495010997.jpg");
+    background-attachment: fixed;
+}
+.backg .opct{
+    height: 100%;
+    background: #fff;
+    opacity: 0.8;
+}
+.backg ul{
+    padding: 1.1rem;
+    text-align: center;
+}
+.backg ul li{
+    float: left;
+    width: 25%;
+}
+.backg  li h3{
+    font-size: 0.45rem;
+    color: #000;
+}
+.thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border:none;
+    border-radius: 0px;
+    overflow: hidden;
+}
+.thumbnail img{
+    width: 100%;
+}
+.thumbnail .picfan{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: inline-block;
+}
+.thumbnail img:hover{
+    transition: all 3s;
+    transform:scale(1.2);
+}
+.thumbnail .caption span{
+    color:#999;
+    font-size: 0.14rem;
+}
+.thumbnail .caption h4{
+    font-weight:600;
+    line-height: 0.22rem;
+    color: #000;
+}
+.thumbnail .caption p{
+    color:#999;
+    font-size: 0.16rem;
+}
+

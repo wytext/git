@@ -1,0 +1,222 @@
+.mina{
+    padding: 0.7rem 0.45rem 0.5rem;
+}
+.mina h2{
+    width: 100%;
+    padding: 0.4rem 0;
+    background:#ebc3c5;
+    text-align: center;
+    color: #fff;
+    font-size: 0.5rem;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #fff;
+    cursor:pointer;
+    background-color: #ebc3c5;
+    border: none;
+    border-radius: 0;
+
+}
+
+.nav-tabs {
+    border-bottom:none;
+    text-align: center;
+    padding-top: 0.3rem;
+}
+.nav-tabs a{
+    color: #000;
+}
+.nav-tabs li{
+    display: inline-block;
+    float: none;
+
+}
+.pintext{
+    padding: 0 0.5rem;
+}
+.pintext p{
+    padding: 0.5rem 0 0.8rem;
+    text-align: center;
+    line-height: 0.21rem;
+    color: rgba(89, 89, 89,0.8);
+    font-size: 0.14rem;
+}
+.pinpic .pick{
+    border: 1px solid #ccc;
+    padding: 0.05rem;
+}
+.pinpic .pick img{
+    width: 100%;
+}
+@media (min-width: 375px) {
+    .pintext{
+        padding: 0 0.1rem;
+    }
+    .ctext{
+        padding:0;
+    }
+
+}
+@media (min-width:1340px) {
+
+    .ctext{
+        padding: 0.25rem 1.5rem;
+    }
+}
+
+@media (min-width:1340px) {
+    .pintext{
+        padding: 0 2.5rem;
+    }
+    .ctext{
+        padding: 0.25rem 2.5rem;
+    }
+}
+.ctext .tit{
+    text-align: left;
+}
+.conbot{
+    background: #fafafa;
+    padding: 0.6rem 0.3rem 0.95rem;
+}
+.conbot .form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fafafa;
+    background-image: none;
+    border:none;
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.conbot label {
+    margin-bottom: 0.17rem;
+}
+.conbot .lianxi{
+    margin-top: 0.45rem;
+}
+.conright{
+    background: #efefef;
+    padding: 0.6rem 0.3rem 0.8rem;
+}
+.conright .ritext textarea{
+}
+.ctext label {
+    margin-bottom: 0.23rem;
+}
+.conright .ribtn{
+    background: #202020;
+    color: #fff;
+    font-size: 0.15rem;
+    padding: 0.19rem 0.15rem;
+    border: none;
+}
+.conright .ribtn:hover{
+    background:#ebc3c5 ;
+}
+
+.quanbupic{
+    padding-left: 1.1rem;
+    padding-top: 0.45rem;
+}
+.quanbupic .col-md-2{
+    margin-right: 0.1rem;
+}
+
+.quanbupic .lefttx{
+    width: 40%;
+    padding: 0.2rem 0.3rem;
+    display: inline-block;
+
+}
+.quanbupic .topxuan{
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+.quanbupic .topxuan:hover .motaihun{
+    display: block;
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    opacity: 0.8;
+    text-align: center;
+
+}
+.quanbupic .topxuan:hover .huntop img{
+    transition: all 2s;
+    transform: scale(1.2,1.2);
+}
+.quanbupic .motaihun{
+    display:none;
+}
+.quanbupic .btn-primary {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+}
+.quanbupic .fade .picrit{
+    width: 59%;
+    display: inline-block;
+    padding: 0.2rem 0;
+}
+.quanbupic .fade img{
+    width: 100%;
+
+}
+.quanbupic .fade p{
+    line-height: 0.24rem;
+    text-indent: 2em;
+    padding: 0.35rem 0;
+}
+.quanbupic .fade strong{
+    font-size: 0.26rem;
+    margin: 0.2rem 0;
+    display: inline-block;
+}
+.quanbupic .fade button{
+    background: #000;
+    padding: 0.2rem;
+    border: none;
+    color: #fff;
+    margin: 0.8rem 0.1rem 0.2rem;
+}
+.boke{
+    padding: 0 0.29rem;
+
+}
+.bomian table,td,tr{
+    background-color: #fff;
+    border: none;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    border-top: 1px solid #fff;
+}
+.bomian .panel-default>.panel-heading{
+    color: #333;
+    background-color: #fff;
+    border: none;
+    border-top:none;
+    overflow: hidden;
+}
+.bomian .panel-default>.panel-heading:hover{
+    transition: all 2s;
+    transform: scale(1.2,1.2);
+}
+.bomian .panel-heading {
+    border-bottom:none;
+}
+.bomian .panel-default{
+    border-color: #fff;
+}
